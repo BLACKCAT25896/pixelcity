@@ -40,7 +40,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ba-9N-93Z">
-                                <rect key="frame" x="354" y="676" width="50" height="50"/>
+                                <rect key="frame" x="344" y="666" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="ZMv-KH-E9o"/>
                                     <constraint firstAttribute="height" constant="50" id="qta-Zz-7a8"/>
@@ -66,17 +66,19 @@
                             <constraint firstItem="hP0-aF-Wfu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IAj-DL-ib6"/>
                             <constraint firstItem="hP0-aF-Wfu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ixq-x5-ief"/>
                             <constraint firstItem="dBx-DV-Qh5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PPC-HH-usB"/>
-                            <constraint firstAttribute="trailing" secondItem="3ba-9N-93Z" secondAttribute="trailing" constant="10" id="UNB-Fc-sfU"/>
+                            <constraint firstAttribute="trailing" secondItem="3ba-9N-93Z" secondAttribute="trailing" constant="20" id="UNB-Fc-sfU"/>
                             <constraint firstItem="4cW-bE-yi2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dfk-Ul-sfd"/>
                             <constraint firstItem="4cW-bE-yi2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gMm-es-Zy4"/>
                             <constraint firstItem="hP0-aF-Wfu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hli-pH-L58"/>
-                            <constraint firstItem="dBx-DV-Qh5" firstAttribute="top" secondItem="3ba-9N-93Z" secondAttribute="bottom" constant="10" id="vgr-Ki-J7V"/>
+                            <constraint firstItem="dBx-DV-Qh5" firstAttribute="top" secondItem="3ba-9N-93Z" secondAttribute="bottom" constant="20" id="vgr-Ki-J7V"/>
                             <constraint firstItem="dBx-DV-Qh5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="z9c-fe-Pv4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="mapview" destination="4cW-bE-yi2" id="vOw-oN-2Cg"/>
+                        <outlet property="pullUpView" destination="dBx-DV-Qh5" id="iMG-z0-hl9"/>
+                        <outlet property="pullUpViewHightConstraint" destination="bV0-MK-yHS" id="lVq-oi-ay0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
